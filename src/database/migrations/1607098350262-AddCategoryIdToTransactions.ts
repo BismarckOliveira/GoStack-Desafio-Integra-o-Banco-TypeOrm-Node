@@ -4,7 +4,6 @@ import {
   TableForeignKey,
   TableColumn,
 } from 'typeorm';
-import { ForeignKeyMetadata } from 'typeorm/metadata/ForeignKeyMetadata';
 
 export default class AddCategoryIdToTransactions1607098350262
   implements MigrationInterface {
